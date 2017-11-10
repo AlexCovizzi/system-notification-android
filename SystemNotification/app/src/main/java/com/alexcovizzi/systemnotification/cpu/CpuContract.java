@@ -11,7 +11,6 @@ public class CpuContract {
         void showCpuMaxFreq(String maxFreq);
         void showCpuCores(String cores);
         void showCpuTemp(String temp);
-        android.view.View getRoot();
         //TODO: add addGraphPoint
     }
     
