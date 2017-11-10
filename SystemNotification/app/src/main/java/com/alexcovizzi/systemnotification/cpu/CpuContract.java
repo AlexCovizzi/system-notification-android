@@ -7,14 +7,14 @@ package com.alexcovizzi.systemnotification.cpu;
 public class CpuContract {
     
     interface View {
-        void showUsage(String usage);
-        void showMaxFreq(String maxFreq);
-        void showCores(String cores);
-        void showTemp(String temp);
-        //TODO: add
+        void showCpuUsage(String usage);
+        void showCpuMaxFreq(String maxFreq);
+        void showCpuCores(String cores);
+        void showCpuTemp(String temp);
+        //TODO: add addGraphPoint
     }
     
     interface UserActionsListener {
-    
+        void showStatusBarNotification();
     }
 }
